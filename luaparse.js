@@ -721,7 +721,7 @@
     if (isIdentifierStart(charCode)) return scanIdentifierOrKeyword();
 
     switch (charCode) {
-      case 39: case 34: // '"
+      case 39: case 34: case 96: // '"`
         return scanStringLiteral();
 
       case 48: case 49: case 50: case 51: case 52: case 53:
