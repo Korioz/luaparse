@@ -85,7 +85,7 @@
     , onLocalDeclaration: null
     // The version of Lua targeted by the parser (string; allowed values are
     // '5.1', '5.2', '5.3').
-    , luaVersion: '5.1'
+    , luaVersion: '5.3'
     // Encoding mode: how to interpret code units higher than U+007F in input
     , encodingMode: 'none'
   };
